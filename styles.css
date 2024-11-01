@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.top-bar {
+    background-color: green;
+    color: white;
+    padding: 5px 0;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile {
+    margin: 10px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.updates-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.reports-updates, .events-seminar {
+    background-color: #f5f5f5;
+    padding: 15px;
+    width: 40%;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.news-scroll {
+    height: 100px;
+    overflow: hidden;
+}
+
+.links-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.admission, .examination {
+    background-color: #e67e22;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #d35400;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
